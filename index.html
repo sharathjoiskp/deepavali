@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Deepavali</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Fireworks Canvas -->
+    <canvas id="fireworks"></canvas>
+
+    <!-- Top Center Text -->
+    <div class="top-text">
+        <h1 id="mainText">🪔ದೀಪಾವಳಿ ಹಬ್ಬದ ಶುಭಾಶಯಗಳು🪔</h1>
+        
+        <button id="playMusicBtn">🔊 Play Music</button>
+    </div>
+
+
+    <!-- Bottom Section -->
+    <div id="bottomSection">
+        <div id="nameDisplay" class="hidden"></div>
+        <button id="createOwnBtn">✨ Create Your Own</button>
+        <div id="nameInputDiv" class="hidden">
+            <input type="text" id="userNameInput" placeholder="Enter your name" />
+            <button id="submitNameBtn">Submit</button>
+        </div>
+        <button id="shareWishBtn" class="hidden">📤 Share</button>
+        <div id="devCredit">Dev by SJ</div>
+    </div>
+
+    <!-- Background Music -->
+    <audio id="bg-music" src="music.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
